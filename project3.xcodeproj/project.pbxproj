@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39F9C2FA1BD024D200A7E7E4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C2F91BD024D200A7E7E4 /* main.cpp */; };
+		394536F51BD99E1400201267 /* Lagrange2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 394536F41BD99E1400201267 /* Lagrange2D.cpp */; };
+		3955871B1BD59BF400DD56A8 /* compare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3955871A1BD59BF400DD56A8 /* compare.cpp */; };
+		3955871D1BD59C3700DD56A8 /* Lagrange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3955871C1BD59C3700DD56A8 /* Lagrange.cpp */; };
+		3966BED41BDBFC6B00AEBC8D /* Runge_uniform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3966BED31BDBFC6B00AEBC8D /* Runge_uniform.cpp */; };
+		3966BED61BDC34B600AEBC8D /* test_Lagrange2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3966BED51BDC34B600AEBC8D /* test_Lagrange2D.cpp */; };
+		3966BED81BDC3B3100AEBC8D /* Runge_Chebyshev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3966BED71BDC3B3100AEBC8D /* Runge_Chebyshev.cpp */; };
+		39F9C3011BD0265600A7E7E4 /* Newton_interpolant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C3001BD0265600A7E7E4 /* Newton_interpolant.cpp */; };
+		39F9C3041BD0266C00A7E7E4 /* matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C3021BD0266C00A7E7E4 /* matrix.cpp */; };
+		39F9C3061BD02D5600A7E7E4 /* test_Newton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C3051BD02D5600A7E7E4 /* test_Newton.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +31,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		394536F41BD99E1400201267 /* Lagrange2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lagrange2D.cpp; sourceTree = "<group>"; };
+		3955871A1BD59BF400DD56A8 /* compare.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = compare.cpp; sourceTree = "<group>"; };
+		3955871C1BD59C3700DD56A8 /* Lagrange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lagrange.cpp; sourceTree = "<group>"; };
+		3966BED31BDBFC6B00AEBC8D /* Runge_uniform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Runge_uniform.cpp; sourceTree = "<group>"; };
+		3966BED51BDC34B600AEBC8D /* test_Lagrange2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_Lagrange2D.cpp; sourceTree = "<group>"; };
+		3966BED71BDC3B3100AEBC8D /* Runge_Chebyshev.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Runge_Chebyshev.cpp; sourceTree = "<group>"; };
 		39F9C2F61BD024D200A7E7E4 /* project3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = project3; sourceTree = BUILT_PRODUCTS_DIR; };
-		39F9C2F91BD024D200A7E7E4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		39F9C3001BD0265600A7E7E4 /* Newton_interpolant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Newton_interpolant.cpp; sourceTree = "<group>"; };
+		39F9C3021BD0266C00A7E7E4 /* matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matrix.cpp; sourceTree = "<group>"; };
+		39F9C3031BD0266C00A7E7E4 /* matrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = matrix.hpp; sourceTree = "<group>"; };
+		39F9C3051BD02D5600A7E7E4 /* test_Newton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_Newton.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +74,16 @@
 		39F9C2F81BD024D200A7E7E4 /* project3 */ = {
 			isa = PBXGroup;
 			children = (
-				39F9C2F91BD024D200A7E7E4 /* main.cpp */,
+				3966BED51BDC34B600AEBC8D /* test_Lagrange2D.cpp */,
+				3955871C1BD59C3700DD56A8 /* Lagrange.cpp */,
+				39F9C3021BD0266C00A7E7E4 /* matrix.cpp */,
+				39F9C3031BD0266C00A7E7E4 /* matrix.hpp */,
+				39F9C3001BD0265600A7E7E4 /* Newton_interpolant.cpp */,
+				39F9C3051BD02D5600A7E7E4 /* test_Newton.cpp */,
+				3955871A1BD59BF400DD56A8 /* compare.cpp */,
+				394536F41BD99E1400201267 /* Lagrange2D.cpp */,
+				3966BED31BDBFC6B00AEBC8D /* Runge_uniform.cpp */,
+				3966BED71BDC3B3100AEBC8D /* Runge_Chebyshev.cpp */,
 			);
 			path = project3;
 			sourceTree = "<group>";
@@ -118,7 +144,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39F9C2FA1BD024D200A7E7E4 /* main.cpp in Sources */,
+				39F9C3041BD0266C00A7E7E4 /* matrix.cpp in Sources */,
+				39F9C3011BD0265600A7E7E4 /* Newton_interpolant.cpp in Sources */,
+				3966BED61BDC34B600AEBC8D /* test_Lagrange2D.cpp in Sources */,
+				394536F51BD99E1400201267 /* Lagrange2D.cpp in Sources */,
+				3955871D1BD59C3700DD56A8 /* Lagrange.cpp in Sources */,
+				39F9C3061BD02D5600A7E7E4 /* test_Newton.cpp in Sources */,
+				3955871B1BD59BF400DD56A8 /* compare.cpp in Sources */,
+				3966BED81BDC3B3100AEBC8D /* Runge_Chebyshev.cpp in Sources */,
+				3966BED41BDBFC6B00AEBC8D /* Runge_uniform.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +266,7 @@
 				39F9C2FF1BD024D200A7E7E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
